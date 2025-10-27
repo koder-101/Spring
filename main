@@ -1,0 +1,26 @@
+1) Scopes
+
+singelton
+prototype
+request
+session
+global session
+
+
+2) JSR-250 - is a standard Java annotations that can be used across all frameworks
+
+@Autowired (required="false") - it uses bean only if it finds it
+@Qualifier ("logWriter") - we use it when there is ambiguity, and we want to get rid of it
+
+org.springframework.stereotype
+@Component
+@Controller
+@Repository
+@Service
+
+3) Lectures
+
+https://www.youtube.com/watch?v=cou_qomYLNU&list=PLEWHv4nlZMnLgli9x0IpVDh9BS4Wp7Rc3&index=8
+https://www.youtube.com/watch?v=BmBr5diz8WA&list=PLEWHv4nlZMnLgli9x0IpVDh9BS4Wp7Rc3&index=7&t=110s
+
+
